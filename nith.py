@@ -100,7 +100,7 @@ elif a == 2:
     electrical()
 elif a == 3:
     cse_dd()
-
+#keep updating the result
 
 
 
