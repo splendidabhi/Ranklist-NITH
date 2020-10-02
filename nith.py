@@ -48,14 +48,23 @@ def search(roll_no,a,b):
 
 
 def electrical():
-    b = 17201
-    c = 17294
+    b = 17201 # starting roll no of this branch 
+    c = 17294 # Last roll  no of this branch
     p = 2
     q = 1
     for i in range(b, c):
         search(i, p, q)
         p += 1
 
+  # added for cse branch
+ def CSE():
+    b = 17501 # starting roll no of this branch 
+    c = 17595 # Last roll  no of this branch
+    p = 2
+    q = 1
+    for i in range(b, c):
+        search(i, p, q)
+        p += 1
 
 def cse_dd():
     a = "17mi"
